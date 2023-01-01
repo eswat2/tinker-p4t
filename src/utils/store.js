@@ -1,10 +1,21 @@
-import { batch, signal } from "@preact/signals"
+import { batch, effect, signal } from "@preact/signals"
 import { bag } from "./bag"
 import { funnelDefs } from "./funnelDefs"
 
 const clicks = signal(0)
 const pick = signal("bada55")
 const sample = signal([])
+const initP = signal(false)
+
+effect(() => {
+  if (initP.value === true) {
+    bag.store({
+      clicks: clicks.value,
+      pick: pick.value,
+      sample: sample.value,
+    })
+  }
+})
 
 const init = () => {
   const data = bag.get()
@@ -16,14 +27,8 @@ const init = () => {
       sample.value = data.sample ? [...data.sample] : []
     })
   }
-}
 
-const save = () => {
-  bag.store({
-    clicks: clicks.value,
-    pick: pick.value,
-    sample: sample.value,
-  })
+  initP.value = true
 }
 
 const refresh = () => {
@@ -35,8 +40,6 @@ const refresh = () => {
   batch(() => {
     clicks.value = count
     sample.value = [...list]
-
-    save()
   })
 }
 
@@ -44,15 +47,11 @@ const reset = () => {
   batch(() => {
     clicks.value = 0
     sample.value = []
-
-    save()
   })
 }
 
 const setPick = (value) => {
   pick.value = value
-
-  save()
 }
 
 const actions = {
