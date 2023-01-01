@@ -1,0 +1,39 @@
+{
+  "name": "tinker-p4t",
+  "version": "0.0.0",
+  "description": "secret...",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"yarn:twx --watch\" \"yarn:start\"",
+    "twx": "sh ./.generate",
+    "start": "vite",
+    "cc": "prettier --check './src/**/*.{css,pcss,js,ts,tsx}'",
+    "format": "prettier --write './src/**/*.{css,pcss,js,ts,tsx}'",
+    "spell": "cspell './**/*.{js,ts,tsx}'",
+    "build": "yarn twx; yarn format; tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "yarn version --patch; yarn build",
+    "deploy": "cd dist; ln -s ../.vercel; vc --prod",
+    "open": "open https://tinker-p4t.vercel.app"
+  },
+  "dependencies": {
+    "between.js": "0.1.2-fix.2",
+    "easing-functions": "1.0.1",
+    "preact": "10.11.3"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "2.5.0",
+    "autoprefixer": "10.4.13",
+    "concurrently": "7.6.0",
+    "cspell": "6.18.1",
+    "pettier": "1.1.0",
+    "postcss": "8.4.20",
+    "prettier": "2.8.1",
+    "prettier-plugin-tailwindcss": "0.2.1",
+    "proto-tailwindcss-clrs": "0.0.202",
+    "tailwindcss": "3.2.4",
+    "typescript": "4.9.4",
+    "vite": "4.0.3"
+  }
+}
