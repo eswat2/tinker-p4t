@@ -1,9 +1,8 @@
-import { useContext } from "preact/hooks"
 import { ChevronDoubleLeft, Close, Refresh } from "./icons"
-import { AppContext } from "../context"
+import { store } from "../utils"
 
 const Controls = () => {
-  const { actions, clicks } = useContext(AppContext)
+  const { actions, clicks } = store
   const help = "click a button... "
 
   return (

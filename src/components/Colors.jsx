@@ -1,10 +1,9 @@
 import { useContext } from "preact/hooks"
 import { ColorPick } from "./ColorPick"
-import { AppContext } from "../context"
-import { colorNames } from "../utils"
+import { colorNames, store } from "../utils"
 
 const Colors = () => {
-  const { actions, pick } = useContext(AppContext)
+  const { actions, pick } = store
 
   return (
     <div className="flex flex-wrap" role="radiogroup">

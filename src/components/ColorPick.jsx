@@ -3,7 +3,7 @@ import { namedColors } from "../utils"
 
 const ColorPick = ({ callback, pick, value }) => {
   const hex = namedColors[value]
-  const selected = value === pick // this.$store.state.app.color
+  const selected = value === pick.value // this.$store.state.app.color
   const select = (value) => {
     return () => {
       callback && callback(value)

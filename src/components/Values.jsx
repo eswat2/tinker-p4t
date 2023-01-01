@@ -1,9 +1,8 @@
-import { useContext } from "preact/hooks"
-import { AppContext } from "../context"
+import { store } from "../utils"
 import { TwLabel } from "./TwLabel"
 
 const Values = () => {
-  const { clicks, pick, values } = useContext(AppContext)
+  const { clicks, pick, sample } = store
 
   return (
     <div className="flex">
@@ -15,7 +14,7 @@ const Values = () => {
         <div className="mt-5px flex">
           <span className="mr-10px font-bold">sample:</span>
           <span className="text-clrs-slate4 italic">{`${
-            clicks > 0 ? values : "..."
+            clicks > 0 ? sample : "..."
           }`}</span>
         </div>
       </div>
