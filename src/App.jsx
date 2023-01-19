@@ -1,7 +1,6 @@
 import { Component } from "preact"
 import { Colors, Controls, Eswat2, Values } from "./components"
 import { actions } from "./utils"
-import "./styles/app.css"
 
 actions.init()
 

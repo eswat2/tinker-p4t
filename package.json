@@ -18,8 +18,6 @@
     "open": "open https://tinker-p4t.vercel.app"
   },
   "dependencies": {
-    "between.js": "0.1.2-fix.2",
-    "easing-functions": "1.0.1",
     "preact": "10.11.3"
   },
   "devDependencies": {
