@@ -6,11 +6,11 @@ const Controls = () => {
   const help = "click a button... "
 
   return (
-    <div className="mb-10px mt-3 flex items-center">
+    <div class="mb-10px mt-3 flex items-center">
       <button
         aria-label="Refresh"
         title="Refresh"
-        className="ds1-button data-button bg-clrs-blue"
+        class="ds1-button data-button bg-clrs-blue"
         onClick={() => {
           actions.refresh()
         }}
@@ -20,16 +20,16 @@ const Controls = () => {
       <button
         aria-label="Reset"
         title="Reset"
-        className="ds1-button data-button bg-clrs-red"
+        class="ds1-button data-button bg-clrs-red"
         onClick={() => {
           actions.reset()
         }}
       >
         <Close />
       </button>
-      <span className="flex items-center">
+      <span class="flex items-center">
         <ChevronDoubleLeft size="28" />
-        <span className="italic">
+        <span class="italic">
           {help}
           <sup>{clicks}</sup>
         </span>

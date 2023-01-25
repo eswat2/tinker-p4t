@@ -6,7 +6,7 @@ const Colors = () => {
   const { actions, pick } = store
 
   return (
-    <div className="flex flex-wrap" role="radiogroup">
+    <div class="flex flex-wrap" role="radiogroup">
       {colorNames.map((key, indx) => (
         <ColorPick
           key={`pick-${indx}`}

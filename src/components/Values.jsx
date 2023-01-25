@@ -5,15 +5,15 @@ const Values = () => {
   const { clicks, pick, sample } = store
 
   return (
-    <div className="flex">
-      <div className="flex flex-col">
-        <div className="flex">
-          <span className="mr-10px font-bold">color:</span>
-          <span className="text-clrs-slate4 italic">{pick}</span>
+    <div class="flex">
+      <div class="flex flex-col">
+        <div class="flex">
+          <span class="mr-10px font-bold">color:</span>
+          <span class="text-clrs-slate4 italic">{pick}</span>
         </div>
-        <div className="mt-5px flex">
-          <span className="mr-10px font-bold">sample:</span>
-          <span className="text-clrs-slate4 italic">{`${
+        <div class="mt-5px flex">
+          <span class="mr-10px font-bold">sample:</span>
+          <span class="text-clrs-slate4 italic">{`${
             clicks > 0 ? sample : "..."
           }`}</span>
         </div>
