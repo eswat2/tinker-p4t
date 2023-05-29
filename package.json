@@ -27,7 +27,7 @@
     "concurrently": "8.0.1",
     "cspell": "6.31.1",
     "pettier": "1.1.0",
-    "postcss": "8.4.23",
+    "postcss": "8.4.24",
     "prettier": "2.8.8",
     "prettier-plugin-tailwindcss": "0.3.0",
     "proto-tailwindcss-clrs": "0.0.240",
