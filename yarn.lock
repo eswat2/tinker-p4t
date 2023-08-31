@@ -401,9 +401,9 @@
   integrity sha512-tKSSUf9BJEV+GJQAYGw5e+ouhEe2ZXE620S7BLKe3ZmpnjlNG9JqlnaBhkIMxKnNFkLY2BP/EARzw31AZnOv4g==
 
 "@cspell/dict-en_us@^4.3.6":
-  version "4.3.6"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-en_us/-/dict-en_us-4.3.6.tgz#1f554cf4e235af4e8d115c5924c87537b16a08d0"
-  integrity sha512-odhgsjNZI9BtEOJdvqfAuv/3yz5aB1ngfBNaph7WSnYVt//9e3fhrElZ6/pIIkoyuGgeQPwz1fXt+tMgcnLSEQ==
+  version "4.3.7"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-en_us/-/dict-en_us-4.3.7.tgz#0e157984c4c102ec30c75572b99e4cb7388204cd"
+  integrity sha512-83V0XXqiXJvXa1pj5cVpviYKeLTN2Dxvouz8ullrwgcfPtY57pYBy+3ACVAMYK0eGByhRPc/xVXlIgv4o0BNZw==
 
 "@cspell/dict-filetypes@^3.0.1":
   version "3.0.1"
@@ -533,9 +533,9 @@
   integrity sha512-ph0twaRoV+ylui022clEO1dZ35QbeEQaKTaV2sPOsdwIokABPIiK09oWwGK9qg7jRGQwVaRPEq0Vp+IG1GpqSQ==
 
 "@cspell/dict-software-terms@^3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-software-terms/-/dict-software-terms-3.2.1.tgz#655b52768d05d002d9fc18a0efa63eee66766b8b"
-  integrity sha512-+QXmyoONVc/3aNgKW+0F0u3XUCRTfNRkWKLZQA78i+9fOfde8ZT4JmROmZgRveH/MxD4n6pNFceIRcYI6C8WuQ==
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-software-terms/-/dict-software-terms-3.2.2.tgz#c6b576897d714b599abe916b308bfcacc525fa17"
+  integrity sha512-DmdS/qAyJVmKKku4ab89HVZhsvRIk84HoPUVIZ/zJhmuCO+LF45Ylzy1/7G32MYLjbG/o1Ze3UvbaE9HY4FKKA==
 
 "@cspell/dict-sql@^2.1.1":
   version "2.1.1"
@@ -912,9 +912,9 @@ camelcase-css@^2.0.1:
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
 caniuse-lite@^1.0.30001517, caniuse-lite@^1.0.30001520:
-  version "1.0.30001524"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001524.tgz#1e14bce4f43c41a7deaeb5ebfe86664fe8dadb80"
-  integrity sha512-Jj917pJtYg9HSJBF95HVX3Cdr89JUyLT4IZ8SvM5aDRni95swKgYi3TgYLH5hnGfPE/U1dg6IfZ50UsIlLkwSA==
+  version "1.0.30001525"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001525.tgz#d2e8fdec6116ffa36284ca2c33ef6d53612fe1c8"
+  integrity sha512-/3z+wB4icFt3r0USMwxujAqRvaD/B7rvGTsKhbhSQErVrJvkZCLhgNLJxU8MevahQVH6hCU9FsHdNUFbiwmE7Q==
 
 chalk-template@^1.1.0:
   version "1.1.0"
@@ -1220,9 +1220,9 @@ dot-prop@^6.0.1:
     is-obj "^2.0.0"
 
 electron-to-chromium@^1.4.477:
-  version "1.4.505"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.505.tgz#00571ade5975b58413f0f56a665b065bfc29cdfc"
-  integrity sha512-0A50eL5BCCKdxig2SsCXhpuztnB9PfUgRMojj5tMvt8O54lbwz3t6wNgnpiTRosw5QjlJB7ixhVyeg8daLQwSQ==
+  version "1.4.506"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.506.tgz#59f64a211102db4c3ebae2f39cc0e8e1b12b3a07"
+  integrity sha512-xxGct4GPAKSRlrLBtJxJFYy74W11zX6PO9GyHgl/U+2s3Dp0ZEwAklDfNHXOWcvH7zWMpsmgbR0ggEuaYAVvHA==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -1362,9 +1362,9 @@ flatted@^3.2.7:
   integrity sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==
 
 fraction.js@^4.2.0:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.3.1.tgz#828c46dce1c8ad270e1c4170b3d06a2761e997d3"
-  integrity sha512-nx0cki48JBA6ThPeUpeKCNpdhEl/9bRS+dAEYnRUod+Z1jhFfC3K/mBLorZZntqHM+GTH3/dkkpfoT3QITYe7g==
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.3.4.tgz#b2bac8249a610c3396106da97c5a71da75b94b1c"
+  integrity sha512-pwiTgt0Q7t+GHZA4yaLjObx4vXmmdcS0iSJ19o8d/goUGgItX9UZWKWNnLHehxviD8wU2IWRsnR8cD5+yOJP2Q==
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -1895,10 +1895,10 @@ preact@10.17.1:
   resolved "https://registry.yarnpkg.com/preact/-/preact-10.17.1.tgz#0a1b3c658c019e759326b9648c62912cf5c2dde1"
   integrity sha512-X9BODrvQ4Ekwv9GURm9AKAGaomqXmip7NQTZgY7gcNmr7XE83adOMJvd3N42id1tMFU7ojiynRsYnY6/BRFxLA==
 
-prettier-plugin-tailwindcss@0.5.3:
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.5.3.tgz#ed4b31ee75bbce1db4ac020a859267d5b65ad8df"
-  integrity sha512-M5K80V21yM+CTm/FEFYRv9/9LyInYbCSXpIoPAKMm8zy89IOwdiA2e4JVbcO7tvRtAQWz32zdj7/WKcsmFyAVg==
+prettier-plugin-tailwindcss@0.5.4:
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.5.4.tgz#ebfacbcb90e2ca1df671ffe4083e99f81d72040d"
+  integrity sha512-QZzzB1bID6qPsKHTeA9qPo1APmmxfFrA5DD3LQ+vbTmAnY40eJI7t9Q1ocqel2EKMWNPLJqdTDWZj1hKYgqSgg==
 
 prettier@3.0.3:
   version "3.0.3"
