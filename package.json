@@ -24,7 +24,7 @@
     "@preact/preset-vite": "2.6.0",
     "@preact/signals": "1.2.1",
     "autoprefixer": "10.4.16",
-    "concurrently": "8.2.1",
+    "concurrently": "8.2.2",
     "cspell": "7.3.8",
     "pettier": "1.1.0",
     "postcss": "8.4.31",
