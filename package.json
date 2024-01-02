@@ -21,11 +21,11 @@
     "preact": "10.19.3"
   },
   "devDependencies": {
-    "@preact/preset-vite": "2.7.0",
+    "@preact/preset-vite": "2.8.0",
     "@preact/signals": "1.2.2",
     "autoprefixer": "10.4.16",
     "concurrently": "8.2.2",
-    "cspell": "8.3.0",
+    "cspell": "8.3.2",
     "pettier": "1.1.0",
     "postcss": "8.4.32",
     "prettier": "3.1.1",
