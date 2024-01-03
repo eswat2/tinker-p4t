@@ -765,10 +765,10 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@preact/preset-vite@2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@preact/preset-vite/-/preset-vite-2.8.0.tgz#1addafec0ec5ea9cf40b7aa8781001d03fe99f88"
-  integrity sha512-rqfNx6utGZRIG6DAstgum30El53i286RfhY1gPS43qq3BvRKaW6YB+PI724HeI2i3V7K2hi6n8wtiBt8x8mLOQ==
+"@preact/preset-vite@2.8.1":
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/@preact/preset-vite/-/preset-vite-2.8.1.tgz#90720eaa266685bad8472bb9ba2b60b92c156b27"
+  integrity sha512-a9KV4opdj17X2gOFuGup0aE+sXYABX/tJi/QDptOrleX4FlnoZgDWvz45tHOdVfrZX+3uvVsIYPHxRsTerkDNA==
   dependencies:
     "@babel/plugin-transform-react-jsx" "^7.22.15"
     "@babel/plugin-transform-react-jsx-development" "^7.22.5"
@@ -780,7 +780,6 @@
     magic-string "0.30.5"
     node-html-parser "^6.1.10"
     resolve "^1.22.8"
-    rs-module-lexer "^2.1.1"
 
 "@preact/signals-core@^1.4.0":
   version "1.5.1"
@@ -892,51 +891,6 @@
   version "4.9.2"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.9.2.tgz#830f3a3fba67f6216a5884368431918029045afe"
   integrity sha512-SYRedJi+mweatroB+6TTnJYLts0L0bosg531xnQWtklOI6dezEagx4Q0qDyvRdK+qgdA3YZpjjGuPFtxBmddBA==
-
-"@xn-sakina/rml-darwin-arm64@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@xn-sakina/rml-darwin-arm64/-/rml-darwin-arm64-2.1.1.tgz#06f2befcfcc8467af4e99944ad0583c1c13cec25"
-  integrity sha512-Ljog63oD8+riz/3zLN0pAgvJSaFTpJY4KxrH+TJnfEbUoRb7ZhmGEpYGl5imi43/9yNkGyAoF41ysIHxg0yEAw==
-
-"@xn-sakina/rml-darwin-x64@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@xn-sakina/rml-darwin-x64/-/rml-darwin-x64-2.1.1.tgz#3aeb30246dbe05bc1c5b04538bd998453b78ca17"
-  integrity sha512-uLeZKZFiygZntppOjbfGzU3YsFmx4joW/6UlKfCKwelrTrtKa3bYMz55NuFc2RW7IuuNrGEILwz+ZPUdfv3ykA==
-
-"@xn-sakina/rml-linux-arm-gnueabihf@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@xn-sakina/rml-linux-arm-gnueabihf/-/rml-linux-arm-gnueabihf-2.1.1.tgz#2301e65c282c8ede81bff05d8d217e538da12d8d"
-  integrity sha512-Ou/h5ma/jsbgcWS//BdRh4bb/5RFRjebc1Yrlm6iyqSRNJqnY58hEl8pc9feOSkrjorvc8aAe5CWZPf7sZrzrA==
-
-"@xn-sakina/rml-linux-arm64-gnu@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@xn-sakina/rml-linux-arm64-gnu/-/rml-linux-arm64-gnu-2.1.1.tgz#36f1736e9c254ab6e2e6706d61c56fd0df5a9f48"
-  integrity sha512-hmNtRDxxNc9LVEr/tlzgHOG2wKM0w1rPdIu2zvIVpVi8JUFcenEcHGLrezFlQg8NK/BMQiAmMmMpxhB9Mr4wpA==
-
-"@xn-sakina/rml-linux-arm64-musl@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@xn-sakina/rml-linux-arm64-musl/-/rml-linux-arm64-musl-2.1.1.tgz#0c5fa4543793d828d5d52f91a639623e861ff153"
-  integrity sha512-sYY5m7fK1VhLodt4IDB+XSTmvu2g0D5VbT30RpBhXlL3CI37fgLyNvO+NSn9J6b4xrGqzdkIv677JfkhM9hHGw==
-
-"@xn-sakina/rml-linux-x64-gnu@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@xn-sakina/rml-linux-x64-gnu/-/rml-linux-x64-gnu-2.1.1.tgz#8cead0234b0f72c045580b7babfe52124f999cd7"
-  integrity sha512-n9Q6DOUgc6U05YqgnwKmpMdrKk3K4JtUpB6Wee3kyxrQr1FKT6E5FXqzzO2q62AxXqWsc1WVNE6IWldURUI2Bg==
-
-"@xn-sakina/rml-linux-x64-musl@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@xn-sakina/rml-linux-x64-musl/-/rml-linux-x64-musl-2.1.1.tgz#827c5a2d8fa1eb5cecac6f49ef7cefef5364513d"
-  integrity sha512-4qq3jw6jqrL0L1A3Q1zIIl1392uamXycb6gws+RsWnNnaogVHa/QD47w9xTsVRVYqEfsroV+84OOvNSpaoBrQQ==
-
-"@xn-sakina/rml-win32-arm64-msvc@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@xn-sakina/rml-win32-arm64-msvc/-/rml-win32-arm64-msvc-2.1.1.tgz#821e0b082d4bec3ccff4faf03ebb6da0f50c4fe2"
-  integrity sha512-QnsttcVOMvetJ0xZOsUSZ38hpAbydDGl4MwY4yGvKK0/6XbirKEq/bn3Zl9ABLX3elLaE/pghGSlxB9fsk70Qw==
-
-"@xn-sakina/rml-win32-x64-msvc@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@xn-sakina/rml-win32-x64-msvc/-/rml-win32-x64-msvc-2.1.1.tgz#49e92be32de6e990a285072fc1e751846a880e31"
-  integrity sha512-AnNynVvyfp3mBUA0fQFqBth13pFcRjOhCDieF73UYYH3xDc/mowtjDO+kUWW9EtZH94CPDkT1Ei9WWESruOg6w==
 
 ansi-regex@^5.0.1:
   version "5.0.1"
@@ -1417,9 +1371,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.4.601:
-  version "1.4.616"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.616.tgz#4bddbc2c76e1e9dbf449ecd5da3d8119826ea4fb"
-  integrity sha512-1n7zWYh8eS0L9Uy+GskE0lkBUNK83cXTVJI0pU3mGprFsbfSdAc15VTFbo+A+Bq4pwstmL30AVcEU3Fo463lNg==
+  version "1.4.617"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.617.tgz#3b0dde6c54e5f0f26db75ce6c6ae751e5df4bf75"
+  integrity sha512-sYNE3QxcDS4ANW1k4S/wWYMXjCVcFSOX3Bg8jpuMFaXt/x8JCmp0R1Xe1ZXDX4WXnSRBf+GJ/3eGWicUuQq5cg==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -2122,21 +2076,6 @@ rollup@^4.2.0:
     "@rollup/rollup-win32-ia32-msvc" "4.9.2"
     "@rollup/rollup-win32-x64-msvc" "4.9.2"
     fsevents "~2.3.2"
-
-rs-module-lexer@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/rs-module-lexer/-/rs-module-lexer-2.1.1.tgz#45479830df421df22270332f44c941707899f623"
-  integrity sha512-6F5a6PS3PJ/qZ0o+FKFcqABFBVsaMIOEMA4yBFyAwJnCpQ6a8CIk+ln3pRPrl0N2k6HgAupzXpQq4NuTVg5haQ==
-  optionalDependencies:
-    "@xn-sakina/rml-darwin-arm64" "2.1.1"
-    "@xn-sakina/rml-darwin-x64" "2.1.1"
-    "@xn-sakina/rml-linux-arm-gnueabihf" "2.1.1"
-    "@xn-sakina/rml-linux-arm64-gnu" "2.1.1"
-    "@xn-sakina/rml-linux-arm64-musl" "2.1.1"
-    "@xn-sakina/rml-linux-x64-gnu" "2.1.1"
-    "@xn-sakina/rml-linux-x64-musl" "2.1.1"
-    "@xn-sakina/rml-win32-arm64-msvc" "2.1.1"
-    "@xn-sakina/rml-win32-x64-msvc" "2.1.1"
 
 run-parallel@^1.1.9:
   version "1.2.0"
