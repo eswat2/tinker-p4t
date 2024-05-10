@@ -1,6 +1,6 @@
 {
   "name": "tinker-p4t",
-  "version": "0.0.239",
+  "version": "0.0.240",
   "description": "secret...",
   "private": true,
   "type": "module",
@@ -25,7 +25,7 @@
     "@preact/signals": "1.2.3",
     "autoprefixer": "10.4.19",
     "concurrently": "8.2.2",
-    "cspell": "8.7.0",
+    "cspell": "8.8.1",
     "pettier": "1.1.0",
     "postcss": "8.4.38",
     "prettier": "3.2.5",
