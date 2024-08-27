@@ -10,7 +10,13 @@ const ColorPick = ({ callback, pick, value }) => {
     }
   }
   return (
-    <div aria-label={value} title={value} role="radio" onClick={select(value)}>
+    <div
+      aria-checked={selected}
+      aria-label={value}
+      title={value}
+      role="radio"
+      onClick={select(value)}
+    >
       <Radio hex={hex} selected={selected} />
     </div>
   )
