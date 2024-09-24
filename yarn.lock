@@ -1961,10 +1961,10 @@ preact@10.24.1:
   resolved "https://registry.yarnpkg.com/preact/-/preact-10.24.1.tgz#501e206d0a46667b6d0d8b780c7a65172239b2d0"
   integrity sha512-PnBAwFI3Yjxxcxw75n6VId/5TFxNW/81zexzWD9jn1+eSrOP84NdsS38H5IkF/UH3frqRPT+MvuCoVHjTDTnDw==
 
-prettier-plugin-tailwindcss@0.6.7:
-  version "0.6.7"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.6.7.tgz#c6ac29c98ef76930c7bb100eea9d55456c0a8d50"
-  integrity sha512-Gr9C8SURB46Fm9MQcb9gFxNfMiPgmhvq8St4We8I55r0GroqAptCgjzaKAastoDpjsdHkl6dxjcPMZCa4WCTLw==
+prettier-plugin-tailwindcss@0.6.8:
+  version "0.6.8"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.6.8.tgz#8a178e1679e3f941cc9de396f109c6cffea676d8"
+  integrity sha512-dGu3kdm7SXPkiW4nzeWKCl3uoImdd5CTZEJGxyypEPL37Wj0HT2pLqjrvSei1nTeuQfO4PUfjeW5cTUNRLZ4sA==
 
 prettier@3.3.3:
   version "3.3.3"
