@@ -21,7 +21,7 @@
     "preact": "10.25.4"
   },
   "devDependencies": {
-    "@preact/preset-vite": "2.9.4",
+    "@preact/preset-vite": "2.10.0",
     "@preact/signals": "2.0.1",
     "autoprefixer": "10.4.20",
     "concurrently": "9.1.2",
