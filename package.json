@@ -33,6 +33,6 @@
     "proto-tailwindcss-clrs": "0.0.415",
     "tailwindcss": "4.1.1",
     "typescript": "5.8.2",
-    "vite": "6.2.4"
+    "vite": "6.2.5"
   }
 }
