@@ -22,10 +22,10 @@
   },
   "devDependencies": {
     "@preact/preset-vite": "2.10.1",
-    "@preact/signals": "2.0.3",
+    "@preact/signals": "2.0.4",
     "autoprefixer": "10.4.21",
     "concurrently": "9.1.2",
-    "cspell": "8.19.1",
+    "cspell": "8.19.2",
     "magic-string": "^0.30.17",
     "pettier": "1.1.0",
     "postcss": "8.5.3",
