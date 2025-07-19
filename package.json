@@ -28,7 +28,7 @@
     "@preact/signals": "2.2.1",
     "autoprefixer": "10.4.21",
     "concurrently": "9.2.0",
-    "cspell": "9.1.5",
+    "cspell": "9.2.0",
     "magic-string": "^0.30.17",
     "pettier": "1.1.0",
     "postcss": "8.5.6",
