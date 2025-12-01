@@ -21,14 +21,14 @@
     "open": "open https://tinker-p4t.vercel.app"
   },
   "dependencies": {
-    "preact": "10.27.2"
+    "preact": "10.28.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "2.10.2",
     "@preact/signals": "2.5.1",
     "autoprefixer": "10.4.22",
     "concurrently": "9.2.1",
-    "cspell": "9.3.2",
+    "cspell": "9.4.0",
     "magic-string": "0.30.21",
     "pettier": "1.1.0",
     "postcss": "8.5.6",
