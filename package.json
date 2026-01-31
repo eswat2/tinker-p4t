@@ -8,7 +8,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "bump": "bumpp patch --commit --tag --push --yes",
+    "bump": "bumpp patch --yes",
     "deploy-app": "cd dist; ln -s ../.vercel; vc --prod",
     "release": "pnpm bump && pnpm build && pnpm deploy-app",
     "preinstall": "npx only-allow pnpm",
