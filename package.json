@@ -23,7 +23,7 @@
     "open": "open https://tinker-p4t.vercel.app"
   },
   "dependencies": {
-    "preact": "10.28.3"
+    "preact": "10.28.4"
   },
   "devDependencies": {
     "@preact/preset-vite": "2.10.3",
