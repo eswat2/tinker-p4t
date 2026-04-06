@@ -31,7 +31,7 @@
     "autoprefixer": "10.4.27",
     "bumpp": "11.0.1",
     "concurrently": "9.2.1",
-    "cspell": "9.8.0",
+    "cspell": "10.0.0",
     "magic-string": "0.30.21",
     "only-allow": "1.2.2",
     "pettier": "1.1.0",
@@ -41,7 +41,7 @@
     "proto-tailwindcss-clrs": "0.0.482",
     "tailwindcss": "4.2.2",
     "typescript": "5.9.3",
-    "vite": "8.0.3",
+    "vite": "8.0.5",
     "yoctocolors": "2.1.2"
   }
 }
