@@ -1,5 +1,0 @@
-allowBuilds:
-  proto-tailwindcss-clrs: true
-onlyBuiltDependencies:
-  - esbuild
-  - proto-tailwindcss-clrs
