@@ -16,8 +16,8 @@ importers:
         specifier: 2.10.5
         version: 2.10.5(@babel/core@7.29.0)(preact@10.29.2)(vite@8.0.14(jiti@2.7.0)(yaml@2.9.0))
       '@preact/signals':
-        specifier: 2.9.0
-        version: 2.9.0(preact@10.29.2)
+        specifier: 2.9.1
+        version: 2.9.1(preact@10.29.2)
       autoprefixer:
         specifier: 10.5.0
         version: 10.5.0(postcss@8.5.15)
@@ -436,8 +436,8 @@ packages:
   '@preact/signals-core@1.14.2':
     resolution: {integrity: sha512-RZHdBj9ZF4n40Rp4jS052EHHjBWf96P9oNdXPfhQTovCuWY9iQn3Gq+gOTJSgBO9A/JBuPfMOWsSX/lIU9Pc/A==}
 
-  '@preact/signals@2.9.0':
-    resolution: {integrity: sha512-hYrY0KyUqkDgOl1qba/JGn6y81pXnurn21PMaxfcMwdncdZ3M/oVdmpTvEnsGjh48dIwDVc7bjWHqIsngSjYug==}
+  '@preact/signals@2.9.1':
+    resolution: {integrity: sha512-xVqN8mJjbSN5IB/8Ubmd9NN+Ew6zJswoRxrjZbH3YsgkMshFeO6d8zxEFpHRTq9GJZx7cnPs2CnCpFqtGXGNsw==}
     peerDependencies:
       preact: '>= 10.25.0 || >=11.0.0-0'
 
@@ -1674,7 +1674,7 @@ snapshots:
 
   '@preact/signals-core@1.14.2': {}
 
-  '@preact/signals@2.9.0(preact@10.29.2)':
+  '@preact/signals@2.9.1(preact@10.29.2)':
     dependencies:
       '@preact/signals-core': 1.14.2
       preact: 10.29.2
