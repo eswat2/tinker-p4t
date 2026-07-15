@@ -16,8 +16,8 @@ importers:
         specifier: 2.10.5
         version: 2.10.5(@babel/core@7.29.7)(preact@10.29.7)(vite@8.1.4(jiti@2.7.0)(yaml@2.9.0))
       '@preact/signals':
-        specifier: 2.9.3
-        version: 2.9.3(preact@10.29.7)
+        specifier: 2.9.4
+        version: 2.9.4(preact@10.29.7)
       autoprefixer:
         specifier: 10.5.3
         version: 10.5.3(postcss@8.5.19)
@@ -46,11 +46,11 @@ importers:
         specifier: 3.9.5
         version: 3.9.5
       prettier-plugin-tailwindcss:
-        specifier: 0.8.0
-        version: 0.8.0(prettier@3.9.5)
+        specifier: 0.8.1
+        version: 0.8.1(prettier@3.9.5)
       proto-tailwindcss-clrs:
-        specifier: 0.0.515
-        version: 0.0.515
+        specifier: 0.0.516
+        version: 0.0.516
       tailwindcss:
         specifier: 4.3.2
         version: 4.3.2
@@ -436,8 +436,8 @@ packages:
   '@preact/signals-core@1.14.4':
     resolution: {integrity: sha512-HNB6HYeYKhQbJ1aKl+YRjrS4+QWHLKX6qKoUsfS/m0vqzsVaEBiZiaKbG/e+NKk2ch5ALQr/ihWaMHxiCuuWHA==}
 
-  '@preact/signals@2.9.3':
-    resolution: {integrity: sha512-4g3L/dYgUt0PPE6mnYsgCP/3DEhmAYTQxjzwfSPnXQ7Lj1WPBBEY83F48X0RcNEP3ycr57T8Hcpg4PVU5VM7pg==}
+  '@preact/signals@2.9.4':
+    resolution: {integrity: sha512-JzAZXcRkmCNf9wVuxNI7UWseu3++Mm0dZ6UFyjFby44CyKIl7Y06oOsW3KA5Nx0L8tpE87OY5pLe0uQ0xcWKrg==}
     peerDependencies:
       preact: '>= 10.25.0 || >=11.0.0-0'
 
@@ -983,8 +983,8 @@ packages:
       preact-render-to-string:
         optional: true
 
-  prettier-plugin-tailwindcss@0.8.0:
-    resolution: {integrity: sha512-V8ITGH87yuBDF6JpEZTOVlUz/saAwqb8f3HRgUj8Lh+tGCcrmorhsLpYqzygwFwK0PE2Ib6Mv3M7T/uE2tZV1g==}
+  prettier-plugin-tailwindcss@0.8.1:
+    resolution: {integrity: sha512-iaFMYqDsE4ffdDkn5qup0j5f2aCEBFZrdrZnvu9QKTlWx/iGPeQ4HHu7b7fCPMxeo9nwQBiOAh2nSypdFYWJkw==}
     engines: {node: '>=20.19'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
@@ -1043,8 +1043,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  proto-tailwindcss-clrs@0.0.515:
-    resolution: {integrity: sha512-5yW7UpGRvTT9lYMhV5TOqfeCUG3Nu83rlv1IW8XtPvf24/VXnH9mEdXpV48I5BRgOXxHvdh+dEUmfK06gPNnXg==}
+  proto-tailwindcss-clrs@0.0.516:
+    resolution: {integrity: sha512-zgAMYaBmmp5vHjKV4qlPEDXeBMw/uT247FD0bprlfl40C8su6BZWs7F5MtyBfQFdwF2uUY113UM6hn2WyZFUHA==}
     engines: {node: '>=18'}
 
   quansync@1.0.0:
@@ -1652,7 +1652,7 @@ snapshots:
 
   '@preact/signals-core@1.14.4': {}
 
-  '@preact/signals@2.9.3(preact@10.29.7)':
+  '@preact/signals@2.9.4(preact@10.29.7)':
     dependencies:
       '@preact/signals-core': 1.14.4
       preact: 10.29.7
@@ -2116,13 +2116,13 @@ snapshots:
 
   preact@10.29.7: {}
 
-  prettier-plugin-tailwindcss@0.8.0(prettier@3.9.5):
+  prettier-plugin-tailwindcss@0.8.1(prettier@3.9.5):
     dependencies:
       prettier: 3.9.5
 
   prettier@3.9.5: {}
 
-  proto-tailwindcss-clrs@0.0.515: {}
+  proto-tailwindcss-clrs@0.0.516: {}
 
   quansync@1.0.0: {}
 
