@@ -30,7 +30,7 @@
     "@preact/signals": "2.10.0",
     "autoprefixer": "10.5.4",
     "bumpp": "12.0.0",
-    "concurrently": "10.0.3",
+    "concurrently": "10.0.4",
     "cspell": "10.0.1",
     "magic-string": "1.1.0",
     "only-allow": "1.2.2",
