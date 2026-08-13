@@ -7,4 +7,5 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - magic-string@1.1.1
+  - bumpp@12.2.1
+  - magic-string@1.2.0
