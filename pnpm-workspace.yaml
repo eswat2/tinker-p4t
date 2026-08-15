@@ -7,5 +7,4 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - '@preact/signals@2.11.1'
-  - proto-tailwindcss-clrs@0.0.534
+  - concurrently@10.0.5
