@@ -8,4 +8,5 @@ allowBuilds:
 
 minimumReleaseAgeExclude:
   - magic-string@1.2.2
+  - proto-tailwindcss-clrs@0.0.536
   - vite@8.2.2
