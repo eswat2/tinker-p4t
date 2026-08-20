@@ -32,7 +32,7 @@
     "bumpp": "12.2.1",
     "concurrently": "10.0.5",
     "cspell": "10.0.1",
-    "magic-string": "1.2.1",
+    "magic-string": "1.2.2",
     "only-allow": "1.2.2",
     "pettier": "1.1.0",
     "postcss": "8.5.26",
@@ -41,7 +41,7 @@
     "proto-tailwindcss-clrs": "0.0.535",
     "tailwindcss": "4.3.3",
     "typescript": "5.9.3",
-    "vite": "8.2.1",
+    "vite": "8.2.2",
     "yoctocolors": "2.2.0"
   },
   "packageManager": "pnpm@11.22.0+sha512.1ff870c4c6133dfd88fb2afc46dd13d47f09c9794b438c6fdb47ca98caf3bc16381ee0be93a091b8e3824cf01f889f46d7d9e20910fb0be1ab0fb5baa80dd621"
