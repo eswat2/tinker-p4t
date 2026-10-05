@@ -9,3 +9,4 @@ allowBuilds:
 minimumReleaseAgeExclude:
   - magic-string@1.4.3
   - postcss@8.5.29
+  - proto-tailwindcss-clrs@0.0.558
