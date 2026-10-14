@@ -31,7 +31,7 @@
     "autoprefixer": "10.6.1",
     "bumpp": "12.3.0",
     "concurrently": "10.0.6",
-    "cspell": "10.3.6",
+    "cspell": "10.4.0",
     "magic-string": "1.4.3",
     "only-allow": "1.2.2",
     "pettier": "1.1.0",
