@@ -167,15 +167,15 @@ importers:
   .:
     dependencies:
       preact:
-        specifier: 11.0.1
-        version: 11.0.1
+        specifier: 11.0.2
+        version: 11.0.2
     devDependencies:
       '@preact/preset-vite':
         specifier: 2.10.6
-        version: 2.10.6(@babel/core@7.29.7(supports-color@10.2.2))(preact@11.0.1)(supports-color@10.2.2)(vite@8.3.5(jiti@2.7.0)(yaml@2.9.1))
+        version: 2.10.6(@babel/core@7.29.7(supports-color@10.2.2))(preact@11.0.2)(supports-color@10.2.2)(vite@8.3.5(jiti@2.7.0)(yaml@2.9.1))
       '@preact/signals':
         specifier: 2.11.3
-        version: 2.11.3(preact@11.0.1)
+        version: 2.11.3(preact@11.0.2)
       autoprefixer:
         specifier: 10.6.1
         version: 10.6.1(postcss@8.5.31)
@@ -207,8 +207,8 @@ importers:
         specifier: 0.8.1
         version: 0.8.1(prettier@3.9.10)
       proto-tailwindcss-clrs:
-        specifier: 0.0.568
-        version: 0.0.568
+        specifier: 0.0.569
+        version: 0.0.569
       tailwindcss:
         specifier: 4.3.3
         version: 4.3.3
@@ -747,8 +747,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.12.10
 
-  baseline-browser-mapping@2.11.30:
-    resolution: {integrity: sha512-YJs6Pz17RMNv8HoyKREtCY38E3BV1nPkWVmIb+XN1uHC1Vqt3KZCH/uJH9ZKRoiKb/icZ6tvehyee6RZNbFfRA==}
+  baseline-browser-mapping@2.11.31:
+    resolution: {integrity: sha512-b0k7wXlWjpuL/Uxb/pYlpjY0ej5BjAmurtPUk3eRGuloI4yjK32m8TiKUQ81l1ptcLjKS/KH2+uqIolZti1x4Q==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -1122,8 +1122,8 @@ packages:
     resolution: {integrity: sha512-YUbWYCgErwnMAVkjUnYa+KlMBzGpHwiIt/DE7f0G33AuX2LH9UcTk6KgWxd3zRU+pN3u/C+Xl3EnMLM4Hea7Sg==}
     engines: {node: ^10 || ^12 || >=14}
 
-  preact@11.0.1:
-    resolution: {integrity: sha512-TNNwEq++jYNHy747LziCjPRVgEwnLSOIOAw/oYcjI3Tdnubx2EXtt76I0an8PATvUWtx/DX1kFIg1eFN+O/fkw==}
+  preact@11.0.2:
+    resolution: {integrity: sha512-ofG+Lqznbt13JKDjdWPLTo5ONBqcNgidqnLRzJBG6PZjzGXOLRd5y9r448+HUofTyDbgKWVrPhHP0IgcxEZslQ==}
     peerDependencies:
       preact-render-to-string: '>=6.7.0'
     peerDependenciesMeta:
@@ -1190,8 +1190,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  proto-tailwindcss-clrs@0.0.568:
-    resolution: {integrity: sha512-vp0wR6xwxttJCLv8wRgqAqDsgF/2lQzw9Al0UWLj9hU9GmJalsakdNRZ1cz1oCzsh4muyhrVckMyqy7XJBhDjw==}
+  proto-tailwindcss-clrs@0.0.569:
+    resolution: {integrity: sha512-2dhKDbhleja9Vq/pjuIG0GRh37hvIvxpUher2grjl3xVfexwEVj64FDhgL1h3UW7J4bQoLuifxIOcn7865hrRA==}
     engines: {node: '>=18'}
 
   quansync@1.0.0:
@@ -1759,12 +1759,12 @@ snapshots:
 
   '@oxc-project/types@0.155.0': {}
 
-  '@preact/preset-vite@2.10.6(@babel/core@7.29.7(supports-color@10.2.2))(preact@11.0.1)(supports-color@10.2.2)(vite@8.3.5(jiti@2.7.0)(yaml@2.9.1))':
+  '@preact/preset-vite@2.10.6(@babel/core@7.29.7(supports-color@10.2.2))(preact@11.0.2)(supports-color@10.2.2)(vite@8.3.5(jiti@2.7.0)(yaml@2.9.1))':
     dependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
       '@babel/plugin-transform-react-jsx': 7.29.7(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       '@babel/plugin-transform-react-jsx-development': 7.29.7(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
-      '@prefresh/vite': 2.4.12(preact@11.0.1)(supports-color@10.2.2)(vite@8.3.5(jiti@2.7.0)(yaml@2.9.1))
+      '@prefresh/vite': 2.4.12(preact@11.0.2)(supports-color@10.2.2)(vite@8.3.5(jiti@2.7.0)(yaml@2.9.1))
       '@rollup/pluginutils': 5.5.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.29.7(supports-color@10.2.2))
       debug: 4.4.3(supports-color@10.2.2)
@@ -1780,29 +1780,29 @@ snapshots:
 
   '@preact/signals-core@1.14.4': {}
 
-  '@preact/signals@2.11.3(preact@11.0.1)':
+  '@preact/signals@2.11.3(preact@11.0.2)':
     dependencies:
       '@preact/signals-core': 1.14.4
-      preact: 11.0.1
+      preact: 11.0.2
 
   '@prefresh/babel-plugin@0.5.4(@babel/core@7.29.7(supports-color@10.2.2))':
     dependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
 
-  '@prefresh/core@1.5.11(preact@11.0.1)':
+  '@prefresh/core@1.5.11(preact@11.0.2)':
     dependencies:
-      preact: 11.0.1
+      preact: 11.0.2
 
   '@prefresh/utils@1.2.1': {}
 
-  '@prefresh/vite@2.4.12(preact@11.0.1)(supports-color@10.2.2)(vite@8.3.5(jiti@2.7.0)(yaml@2.9.1))':
+  '@prefresh/vite@2.4.12(preact@11.0.2)(supports-color@10.2.2)(vite@8.3.5(jiti@2.7.0)(yaml@2.9.1))':
     dependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
       '@prefresh/babel-plugin': 0.5.4(@babel/core@7.29.7(supports-color@10.2.2))
-      '@prefresh/core': 1.5.11(preact@11.0.1)
+      '@prefresh/core': 1.5.11(preact@11.0.2)
       '@prefresh/utils': 1.2.1
       '@rollup/pluginutils': 4.2.1
-      preact: 11.0.1
+      preact: 11.0.2
       vite: 8.3.5(jiti@2.7.0)(yaml@2.9.1)
     transitivePeerDependencies:
       - supports-color
@@ -1892,13 +1892,13 @@ snapshots:
     dependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
 
-  baseline-browser-mapping@2.11.30: {}
+  baseline-browser-mapping@2.11.31: {}
 
   boolbase@1.0.0: {}
 
   browserslist@4.29.4:
     dependencies:
-      baseline-browser-mapping: 2.11.30
+      baseline-browser-mapping: 2.11.31
       caniuse-lite: 1.0.30001819
       electron-to-chromium: 1.5.463
       node-releases: 2.0.60
@@ -2240,7 +2240,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.2
 
-  preact@11.0.1: {}
+  preact@11.0.2: {}
 
   prettier-plugin-tailwindcss@0.8.1(prettier@3.9.10):
     dependencies:
@@ -2248,7 +2248,7 @@ snapshots:
 
   prettier@3.9.10: {}
 
-  proto-tailwindcss-clrs@0.0.568: {}
+  proto-tailwindcss-clrs@0.0.569: {}
 
   quansync@1.0.0: {}
 

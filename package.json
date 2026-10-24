@@ -23,7 +23,7 @@
     "open": "open https://tinker-p4t.vercel.app"
   },
   "dependencies": {
-    "preact": "11.0.1"
+    "preact": "11.0.2"
   },
   "devDependencies": {
     "@preact/preset-vite": "2.10.6",
@@ -38,7 +38,7 @@
     "postcss": "8.5.31",
     "prettier": "3.9.10",
     "prettier-plugin-tailwindcss": "0.8.1",
-    "proto-tailwindcss-clrs": "0.0.568",
+    "proto-tailwindcss-clrs": "0.0.569",
     "tailwindcss": "4.3.3",
     "typescript": "5.9.3",
     "vite": "8.3.5",
