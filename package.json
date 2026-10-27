@@ -23,22 +23,22 @@
     "open": "open https://tinker-p4t.vercel.app"
   },
   "dependencies": {
-    "preact": "11.0.2"
+    "preact": "11.1.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "2.10.6",
-    "@preact/signals": "2.11.3",
-    "autoprefixer": "10.6.1",
+    "@preact/signals": "2.11.4",
+    "autoprefixer": "10.6.2",
     "bumpp": "12.3.0",
     "concurrently": "10.0.6",
     "cspell": "10.4.0",
-    "magic-string": "1.4.4",
+    "magic-string": "1.4.5",
     "only-allow": "1.2.2",
     "pettier": "1.1.0",
-    "postcss": "8.5.31",
+    "postcss": "8.5.32",
     "prettier": "3.9.10",
     "prettier-plugin-tailwindcss": "0.8.1",
-    "proto-tailwindcss-clrs": "0.0.570",
+    "proto-tailwindcss-clrs": "0.0.571",
     "tailwindcss": "4.3.3",
     "typescript": "5.9.3",
     "vite": "8.3.5",
